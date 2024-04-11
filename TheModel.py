@@ -19,4 +19,4 @@ model.fit(trainX,trainy)
 predictions=model.predict(valX)
 mape = 100 * (abs(valy - predictions) / valy).mean()
 
-print("The Mean Absolute Percentage Error in model's predictions upon testing:", mape)
+print("The Mean Absolute Percentage Error in model's predictions upon testing:", mape,'%')
