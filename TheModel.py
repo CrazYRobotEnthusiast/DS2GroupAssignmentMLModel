@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error
 import pandas as pd 
 import time
 
-data=pd.read_csv('TableFormModel.csv')
+data=pd.read_csv('DataForTrainingAndTesting.csv')
 features=['Year','GDPperCapita','OilPrice','Population','inflationRate','covidCases','unemploymentRate']
 y=data.TotalCars
 
